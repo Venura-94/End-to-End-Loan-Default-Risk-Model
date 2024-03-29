@@ -1,0 +1,14 @@
+COLUMNS:
+  Marital_status: int32
+  House_Ownership: int32
+  Car_Ownership: int32
+  Profession: int32
+  CITY: int32                
+  STATE: int32             
+  CURRENT_HOUSE_YRS: int64
+  Risk_Flag: int64
+  Age_band: int64
+  Total_EXP: int64
+
+TARGET_COLUMN:
+  name: Risk_Flag

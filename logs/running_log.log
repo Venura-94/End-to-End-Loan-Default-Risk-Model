@@ -1,0 +1,50 @@
+[2024-02-29 00:08:53,833: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.100:8080]
+[2024-02-29 00:08:53,834: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-02-29 00:09:19,293: INFO: _internal: 127.0.0.1 - - [29/Feb/2024 00:09:19] "GET / HTTP/1.1" 200 -]
+[2024-02-29 00:09:19,378: INFO: _internal: 127.0.0.1 - - [29/Feb/2024 00:09:19] "GET /static/css/styles.css HTTP/1.1" 200 -]
+[2024-02-29 00:09:19,381: INFO: _internal: 127.0.0.1 - - [29/Feb/2024 00:09:19] "GET /static/css2/nunito-font.css HTTP/1.1" 200 -]
+[2024-02-29 00:09:19,381: INFO: _internal: 127.0.0.1 - - [29/Feb/2024 00:09:19] "GET /static/css2/style.css HTTP/1.1" 200 -]
+[2024-02-29 00:09:19,395: INFO: _internal: 127.0.0.1 - - [29/Feb/2024 00:09:19] "GET /static/js/scripts.js HTTP/1.1" 200 -]
+[2024-02-29 00:09:20,052: INFO: _internal: 127.0.0.1 - - [29/Feb/2024 00:09:20] "GET /static/assets/img/risk.jpg HTTP/1.1" 200 -]
+[2024-02-29 00:09:20,085: INFO: _internal: 127.0.0.1 - - [29/Feb/2024 00:09:20] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2024-02-29 00:09:20,364: INFO: _internal: 127.0.0.1 - - [29/Feb/2024 00:09:20] "GET /static/assets/favicon.ico HTTP/1.1" 200 -]
+[2024-02-29 00:10:03,654: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:10:03] "GET / HTTP/1.1" 200 -]
+[2024-02-29 00:10:03,709: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:10:03] "GET /static/css/styles.css HTTP/1.1" 200 -]
+[2024-02-29 00:10:03,712: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:10:03] "GET /static/css2/style.css HTTP/1.1" 200 -]
+[2024-02-29 00:10:03,713: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:10:03] "GET /static/css2/nunito-font.css HTTP/1.1" 200 -]
+[2024-02-29 00:10:03,714: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:10:03] "GET /static/js/scripts.js HTTP/1.1" 200 -]
+[2024-02-29 00:10:04,405: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:10:04] "GET /static/assets/img/risk.jpg HTTP/1.1" 200 -]
+[2024-02-29 00:10:04,443: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:10:04] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2024-02-29 00:10:04,725: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:10:04] "GET /static/assets/favicon.ico HTTP/1.1" 200 -]
+[2024-02-29 00:19:40,320: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.100:8080]
+[2024-02-29 00:19:40,320: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-02-29 00:19:48,279: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:19:48] "GET / HTTP/1.1" 200 -]
+[2024-02-29 00:19:48,309: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:19:48] "GET /static/css/styles.css HTTP/1.1" 200 -]
+[2024-02-29 00:19:48,313: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:19:48] "GET /static/css2/nunito-font.css HTTP/1.1" 200 -]
+[2024-02-29 00:19:48,315: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:19:48] "GET /static/css2/style.css HTTP/1.1" 200 -]
+[2024-02-29 00:19:48,316: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:19:48] "GET /static/js/scripts.js HTTP/1.1" 200 -]
+[2024-02-29 00:19:49,044: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:19:49] "GET /static/assets/img/risk.jpg HTTP/1.1" 200 -]
+[2024-02-29 00:19:49,078: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:19:49] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2024-02-29 00:19:49,304: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:19:49] "GET /static/assets/favicon.ico HTTP/1.1" 200 -]
+[2024-02-29 00:23:23,437: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:23:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-02-29 00:23:23,439: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:23:23] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2024-02-29 00:23:23,439: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:23:23] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2024-03-21 20:41:32,195: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.100:8080]
+[2024-03-21 20:41:32,196: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-03-21 20:41:54,541: INFO: _internal: 127.0.0.1 - - [21/Mar/2024 20:41:54] "GET / HTTP/1.1" 200 -]
+[2024-03-21 20:41:54,597: INFO: _internal: 127.0.0.1 - - [21/Mar/2024 20:41:54] "GET /static/css2/nunito-font.css HTTP/1.1" 200 -]
+[2024-03-21 20:41:54,598: INFO: _internal: 127.0.0.1 - - [21/Mar/2024 20:41:54] "GET /static/css2/style.css HTTP/1.1" 200 -]
+[2024-03-21 20:41:54,599: INFO: _internal: 127.0.0.1 - - [21/Mar/2024 20:41:54] "GET /static/css/styles.css HTTP/1.1" 200 -]
+[2024-03-21 20:41:54,606: INFO: _internal: 127.0.0.1 - - [21/Mar/2024 20:41:54] "GET /static/js/scripts.js HTTP/1.1" 200 -]
+[2024-03-21 20:41:54,989: INFO: _internal: 127.0.0.1 - - [21/Mar/2024 20:41:54] "GET /static/assets/img/risk.jpg HTTP/1.1" 200 -]
+[2024-03-21 20:41:55,005: INFO: _internal: 127.0.0.1 - - [21/Mar/2024 20:41:55] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2024-03-21 20:41:55,259: INFO: _internal: 127.0.0.1 - - [21/Mar/2024 20:41:55] "GET /static/assets/favicon.ico HTTP/1.1" 200 -]
