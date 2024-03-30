@@ -12,8 +12,6 @@ app = Flask(__name__) # initializing a flask app
 def homePage():
     return render_template("index.html")
 
-
-
 @app.route('/train',methods=['GET'])  # route to train the pipeline
 def training():
     os.system("python main.py")
@@ -24,20 +22,19 @@ def index():
     if request.method == 'POST':
         try:
             # Reading form data from the POST request
-            Marital_status =int(request.form['Marital_status'])
-            House_Ownership =int(request.form['House_Ownership'])
-            Car_Ownership =int(request.form['Car_Ownership'])
-            Profession =int(request.form['Profession'])
-            CITY =int(request.form['CITY'])
-            STATE =int(request.form['STATE'])
-            CURRENT_HOUSE_YRS =int(request.form['CURRENT_HOUSE_YRS'])
-            Risk_Flag =int(request.form['Risk_Flag'])
-            Age_band=int(request.form['Age_band'])
-            Total_EXP =int(request.form['Total_EXP'])
+            Marital_status =float(request.form['Marital_status'])
+            House_Ownership =float(request.form['House_Ownership'])
+            Car_Ownership =float(request.form['Car_Ownership'])
+            Profession =float(request.form['Profession'])
+            CITY =float(request.form['CITY'])
+            STATE =float(request.form['STATE'])
+            CURRENT_HOUSE_YRS =float(request.form['CURRENT_HOUSE_YRS'])
+            Age_band=float(request.form['Age_band'])
+            Total_EXP =float(request.form['Total_EXP'])
             
-         
-            data = [Marital_status,House_Ownership,Car_Ownership,Profession,CITY,STATE,CURRENT_HOUSE_YRS,Risk_Flag ,Age_band,Total_EXP]
-            data = np.array(data).reshape(1, 11)
+            
+            data = [Marital_status,House_Ownership,Car_Ownership,Profession,CITY,STATE,CURRENT_HOUSE_YRS,Age_band,Total_EXP]
+            data = np.array(data).reshape(1, 9)
             # Making predictions using the PredictionPipeline
             obj = PredictionPipeline()
             predict = obj.predict(data)
