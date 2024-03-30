@@ -1,50 +1,89 @@
-[2024-02-29 00:08:53,833: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+[2024-03-29 22:34:30,578: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:8080
  * Running on http://192.168.1.100:8080]
-[2024-02-29 00:08:53,834: INFO: _internal: [33mPress CTRL+C to quit[0m]
-[2024-02-29 00:09:19,293: INFO: _internal: 127.0.0.1 - - [29/Feb/2024 00:09:19] "GET / HTTP/1.1" 200 -]
-[2024-02-29 00:09:19,378: INFO: _internal: 127.0.0.1 - - [29/Feb/2024 00:09:19] "GET /static/css/styles.css HTTP/1.1" 200 -]
-[2024-02-29 00:09:19,381: INFO: _internal: 127.0.0.1 - - [29/Feb/2024 00:09:19] "GET /static/css2/nunito-font.css HTTP/1.1" 200 -]
-[2024-02-29 00:09:19,381: INFO: _internal: 127.0.0.1 - - [29/Feb/2024 00:09:19] "GET /static/css2/style.css HTTP/1.1" 200 -]
-[2024-02-29 00:09:19,395: INFO: _internal: 127.0.0.1 - - [29/Feb/2024 00:09:19] "GET /static/js/scripts.js HTTP/1.1" 200 -]
-[2024-02-29 00:09:20,052: INFO: _internal: 127.0.0.1 - - [29/Feb/2024 00:09:20] "GET /static/assets/img/risk.jpg HTTP/1.1" 200 -]
-[2024-02-29 00:09:20,085: INFO: _internal: 127.0.0.1 - - [29/Feb/2024 00:09:20] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
-[2024-02-29 00:09:20,364: INFO: _internal: 127.0.0.1 - - [29/Feb/2024 00:09:20] "GET /static/assets/favicon.ico HTTP/1.1" 200 -]
-[2024-02-29 00:10:03,654: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:10:03] "GET / HTTP/1.1" 200 -]
-[2024-02-29 00:10:03,709: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:10:03] "GET /static/css/styles.css HTTP/1.1" 200 -]
-[2024-02-29 00:10:03,712: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:10:03] "GET /static/css2/style.css HTTP/1.1" 200 -]
-[2024-02-29 00:10:03,713: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:10:03] "GET /static/css2/nunito-font.css HTTP/1.1" 200 -]
-[2024-02-29 00:10:03,714: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:10:03] "GET /static/js/scripts.js HTTP/1.1" 200 -]
-[2024-02-29 00:10:04,405: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:10:04] "GET /static/assets/img/risk.jpg HTTP/1.1" 200 -]
-[2024-02-29 00:10:04,443: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:10:04] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
-[2024-02-29 00:10:04,725: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:10:04] "GET /static/assets/favicon.ico HTTP/1.1" 200 -]
-[2024-02-29 00:19:40,320: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:8080
- * Running on http://192.168.1.100:8080]
-[2024-02-29 00:19:40,320: INFO: _internal: [33mPress CTRL+C to quit[0m]
-[2024-02-29 00:19:48,279: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:19:48] "GET / HTTP/1.1" 200 -]
-[2024-02-29 00:19:48,309: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:19:48] "GET /static/css/styles.css HTTP/1.1" 200 -]
-[2024-02-29 00:19:48,313: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:19:48] "GET /static/css2/nunito-font.css HTTP/1.1" 200 -]
-[2024-02-29 00:19:48,315: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:19:48] "GET /static/css2/style.css HTTP/1.1" 200 -]
-[2024-02-29 00:19:48,316: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:19:48] "GET /static/js/scripts.js HTTP/1.1" 200 -]
-[2024-02-29 00:19:49,044: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:19:49] "GET /static/assets/img/risk.jpg HTTP/1.1" 200 -]
-[2024-02-29 00:19:49,078: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:19:49] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
-[2024-02-29 00:19:49,304: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:19:49] "GET /static/assets/favicon.ico HTTP/1.1" 200 -]
-[2024-02-29 00:23:23,437: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:23:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
-[2024-02-29 00:23:23,439: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:23:23] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
-[2024-02-29 00:23:23,439: INFO: _internal: 192.168.1.100 - - [29/Feb/2024 00:23:23] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
-[2024-03-21 20:41:32,195: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:8080
- * Running on http://192.168.1.100:8080]
-[2024-03-21 20:41:32,196: INFO: _internal: [33mPress CTRL+C to quit[0m]
-[2024-03-21 20:41:54,541: INFO: _internal: 127.0.0.1 - - [21/Mar/2024 20:41:54] "GET / HTTP/1.1" 200 -]
-[2024-03-21 20:41:54,597: INFO: _internal: 127.0.0.1 - - [21/Mar/2024 20:41:54] "GET /static/css2/nunito-font.css HTTP/1.1" 200 -]
-[2024-03-21 20:41:54,598: INFO: _internal: 127.0.0.1 - - [21/Mar/2024 20:41:54] "GET /static/css2/style.css HTTP/1.1" 200 -]
-[2024-03-21 20:41:54,599: INFO: _internal: 127.0.0.1 - - [21/Mar/2024 20:41:54] "GET /static/css/styles.css HTTP/1.1" 200 -]
-[2024-03-21 20:41:54,606: INFO: _internal: 127.0.0.1 - - [21/Mar/2024 20:41:54] "GET /static/js/scripts.js HTTP/1.1" 200 -]
-[2024-03-21 20:41:54,989: INFO: _internal: 127.0.0.1 - - [21/Mar/2024 20:41:54] "GET /static/assets/img/risk.jpg HTTP/1.1" 200 -]
-[2024-03-21 20:41:55,005: INFO: _internal: 127.0.0.1 - - [21/Mar/2024 20:41:55] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
-[2024-03-21 20:41:55,259: INFO: _internal: 127.0.0.1 - - [21/Mar/2024 20:41:55] "GET /static/assets/favicon.ico HTTP/1.1" 200 -]
+[2024-03-29 22:34:30,579: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-03-29 22:35:05,574: INFO: _internal: 192.168.1.100 - - [29/Mar/2024 22:35:05] "GET / HTTP/1.1" 200 -]
+[2024-03-29 22:35:05,635: INFO: _internal: 192.168.1.100 - - [29/Mar/2024 22:35:05] "GET /static/css2/nunito-font.css HTTP/1.1" 200 -]
+[2024-03-29 22:35:05,638: INFO: _internal: 192.168.1.100 - - [29/Mar/2024 22:35:05] "GET /static/css2/style.css HTTP/1.1" 200 -]
+[2024-03-29 22:35:05,638: INFO: _internal: 192.168.1.100 - - [29/Mar/2024 22:35:05] "GET /static/css/styles.css HTTP/1.1" 200 -]
+[2024-03-29 22:35:05,651: INFO: _internal: 192.168.1.100 - - [29/Mar/2024 22:35:05] "GET /static/js/scripts.js HTTP/1.1" 200 -]
+[2024-03-29 22:35:06,296: INFO: _internal: 192.168.1.100 - - [29/Mar/2024 22:35:06] "GET /static/assets/img/risk.jpg HTTP/1.1" 200 -]
+[2024-03-29 22:35:06,331: INFO: _internal: 192.168.1.100 - - [29/Mar/2024 22:35:06] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2024-03-29 22:35:06,669: INFO: _internal: 192.168.1.100 - - [29/Mar/2024 22:35:06] "GET /static/assets/favicon.ico HTTP/1.1" 200 -]
+[2024-03-29 22:36:00,040: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-29 22:36:00,044: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-29 22:36:00,046: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-29 22:36:00,048: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-29 22:36:00,049: INFO: common: created directory at: artifacts]
+[2024-03-29 22:36:00,049: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-29 22:36:01,943: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 1578008
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "896ab66660dab4a8e45f946d34ab090956fb74d22ad98a8814207a0d89351ea0"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 083E:2B775B:4D2345:5F634F:6606F4F8
+Accept-Ranges: bytes
+Date: Fri, 29 Mar 2024 17:06:01 GMT
+Via: 1.1 varnish
+X-Served-By: cache-qpg120084-QPG
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1711731961.358444,VS0,VE336
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0993e352f73715e3a3ced941645490017c64b5f1
+Expires: Fri, 29 Mar 2024 17:11:01 GMT
+Source-Age: 0
+
+]
+[2024-03-29 22:36:01,978: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-29 22:36:01,979: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-03-29 22:36:01,982: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-29 22:36:01,983: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-29 22:36:01,985: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-29 22:36:01,985: INFO: common: created directory at: artifacts]
+[2024-03-29 22:36:01,986: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-29 22:36:02,127: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-03-29 22:36:02,128: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-03-29 22:36:02,137: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-29 22:36:02,138: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-29 22:36:02,140: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-29 22:36:02,141: INFO: common: created directory at: artifacts]
+[2024-03-29 22:36:02,141: INFO: common: created directory at: artifacts/data_transformation]
+[2024-03-29 22:36:02,780: INFO: data_transformation: Splited data into training and test sets]
+[2024-03-29 22:36:02,781: INFO: data_transformation: (189000, 10)]
+[2024-03-29 22:36:02,781: INFO: data_transformation: (63000, 10)]
+[2024-03-29 22:36:02,785: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-03-29 22:36:02,785: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-03-29 22:36:02,787: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-29 22:36:02,789: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-29 22:36:02,791: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-29 22:36:02,791: INFO: common: created directory at: artifacts]
+[2024-03-29 22:36:02,792: INFO: common: created directory at: artifacts/model_trainer]
+[2024-03-29 22:36:11,044: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-03-29 22:36:11,044: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-03-29 22:36:11,047: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-29 22:36:11,048: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-29 22:36:11,050: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-29 22:36:11,051: INFO: common: created directory at: artifacts]
+[2024-03-29 22:36:11,051: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-03-29 22:36:11,804: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-03-29 22:36:11,810: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
