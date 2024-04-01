@@ -9,7 +9,7 @@
 
 This workflow enables  to automate the deployment of the application from  GitHub repository to an AWS EC2 instance via Docker images stored in ECR, using GitHub Actions as the orchestrator and a self-hosted runner on an EC2 instance.
 
-# Workflow explained step-by-step for ease of comprehension
+# Workflow explained below step-by-step for ease of comprehension
 ## Folder WorkFlow
 
 1. update config.yaml
