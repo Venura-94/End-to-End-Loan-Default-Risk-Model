@@ -46,26 +46,33 @@ Now open up your local host 0.0.0.0:8080
 
 ## 1. Login to AWS console.
 
+![AWS Dash Board Free Tier](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/551bb047-b36b-436f-8bd3-434ee45dc2d9)
+
 ## 2. Create IAM user for deployment
+
+
+![IAM User](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/c4c1c122-73ef-4f0f-bd68-6c39df26bd4d)
+
 
 	#with specific access
 
-	1. EC2 access : It is virtual machine
+	1. EC2 access : virtual machine
 
-	2. ECR: Elastic Container registry to save your docker image in aws
+	2. ECR: Elastic Container registry to save the docker image in aws
 
 
 	#Description: About the deployment
 
 	1. Build docker image of the source code
 
-	2. Push your docker image to ECR
+	2. Push the docker image to ECR
+![Images to Registry](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/1e65b57c-9de3-474b-8580-7ff1dd49c83f)
 
-	3. Launch Your EC2 
+	3. Launch the EC2 
 
-	4. Pull Your image from ECR in EC2
+	4. Pull the image from ECR in EC2
 
-	5. Lauch your docker image in EC2
+	5. Lauch the docker image in EC2
 
 	#Policy:
 
