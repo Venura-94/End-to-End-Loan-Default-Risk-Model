@@ -12,7 +12,7 @@
 8. update the main.py
 9. update the app.py
 
-# Creating the Environments and installing Packages
+# Creating the Environment and installing Packages
 ### STEPS:
 
 
