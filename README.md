@@ -64,6 +64,7 @@ Now open up your local host 0.0.0.0:8080
 	#Description: About the deployment
 
 	1. Build docker image of the source code
+![image](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/46f20dd9-59db-4221-b70e-004991f4146a)
 
 	2. Push the docker image to ECR
 ![Images to Registry](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/1e65b57c-9de3-474b-8580-7ff1dd49c83f)
@@ -108,6 +109,16 @@ Now open up your local host 0.0.0.0:8080
 	
 # 6. Configure EC2 as self-hosted runner:
     setting>actions>runner>new self hosted runner> choose os> then run command one by one
+![Runner](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/74fca882-bc75-490d-a4fc-60904bd8f8ed)
+
+![Selfhosted Runner](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/49efc4bd-7387-46a4-b31c-ecd92ef2d006)
+
+At the moment runner is offline i have removed the related instance from AWS
+
+Completion of Github Workflows (CI/CD)
+
+![Actions_All Workflows](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/43b3c790-9cef-4d53-abe0-b05cb192dec7)
+![Github actions workflow](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/cfab58c0-0c5d-402b-a1ad-77248ad607f4)
 
 
 # 7. Setup github secrets:
@@ -122,9 +133,3 @@ Now open up your local host 0.0.0.0:8080
 
     ECR_REPOSITORY_NAME = simple-app
 
-
-
-
-
-
- git config --global user.name "Venura-94"
