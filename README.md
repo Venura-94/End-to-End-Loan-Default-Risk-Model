@@ -36,12 +36,6 @@ pip install -r requirements.txt
 python app.py
 ```
 
-```bash
-Now open up your local host 0.0.0.0:8080
-```
-
-
-
 # AWS-CICD-Deployment-with-Github-Actions
 
 ## 1. Login to AWS console.
@@ -70,10 +64,18 @@ Now open up your local host 0.0.0.0:8080
 ![Images to Registry](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/1e65b57c-9de3-474b-8580-7ff1dd49c83f)
 
 	3. Launch the EC2 
+![EC2 dashboard](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/8515a303-a61c-4d3b-aee2-93e3abfd4f34)
+
+
 
 	4. Pull the image from ECR in EC2
 
 	5. Lauch the docker image in EC2
+
+![Port added](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/3979cc0c-6c3c-4e2f-bd6b-86c3a00f0f1a)
+
+![webapp](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/1338b400-9152-4cf9-86b2-dd78242c0e84)
+
 
 	#Policy:
 
@@ -84,9 +86,12 @@ Now open up your local host 0.0.0.0:8080
 	
 ## 3. Create ECR repo to store/save docker image
     - Save the URI: 169712768495.dkr.ecr.us-east-1.amazonaws.com/mlproject
+![Elastic Container Registry](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/3a1c806e-b819-467d-88c5-3bc72074171d)
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
+![EC2 Instance](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/f9020e2a-d9dd-454c-a762-05c2fa65971c)
+
 
 ## 5. Open EC2 and Install docker in EC2 Machine:
 	
@@ -106,6 +111,10 @@ Now open up your local host 0.0.0.0:8080
 	sudo usermod -aG docker ubuntu
 
 	newgrp docker
+
+![EC2 CLI](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/3b0e7731-b2c8-4ba8-8e85-4a12571fd9bb)
+
+ 
 	
 # 6. Configure EC2 as self-hosted runner:
     setting>actions>runner>new self hosted runner> choose os> then run command one by one
