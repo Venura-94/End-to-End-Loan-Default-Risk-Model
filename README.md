@@ -1,4 +1,7 @@
 # End-to-end-Loan Default Risk Prediction (Random Forest Classifier Problem)
+### Currently Running Parameters and model is still in researching phase (Preprocessing block and hyperparamter tuning)
+![image](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/e280a874-0e16-4090-9c02-aaa8b2629753)
+
 
 ## Folder WorkFlow
 
