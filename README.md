@@ -1,4 +1,4 @@
-# End-to-end-Loan Default Risk Prediction (Random Forest Classifier Problem)
+# End-to-End-Loan Default Risk Prediction (Random Forest Classifier Problem)
 
 Projects Target Audience - Empowering banks with critical insights into factors influencing loan defaults, predictive model aims to refine loan authorization processes and risk assessments.
 
