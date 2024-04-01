@@ -2,14 +2,21 @@
 ### Currently running parameters and model is still in researching phase (Preprocessing block and hyperparamter tuning)
 ![image](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/e280a874-0e16-4090-9c02-aaa8b2629753)
 
+### Diagram to Explain the Project's End-to-End Deployment
 
+![AWS_CICD_EC2](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/b1419411-3f3f-40ad-aa5d-934f5c0665d8)
+
+
+This workflow enables  to automate the deployment of the application from  GitHub repository to an AWS EC2 instance via Docker images stored in ECR, using GitHub Actions as the orchestrator and a self-hosted runner on an EC2 instance.
+
+# Workflow explained step-by-step for ease of comprehension
 ## Folder WorkFlow
 
 1. update config.yaml
 2. update schema.yaml
 3. update params.yaml
 4. update the entity 
-5. update the configuration manager in src config
+5. update the src config
 6. update the components
 7. update the pipeline
 8. update the main.py
