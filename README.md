@@ -112,7 +112,7 @@ python app.py
 
 	newgrp docker
 
-# After Installing docker and completion of CI/CD_ EC2 CLI Screenshot
+# After Installing docker and completion of CI/CD_ EC2 CLI 
 
 ![EC2 CLI](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/3b0e7731-b2c8-4ba8-8e85-4a12571fd9bb)
 
