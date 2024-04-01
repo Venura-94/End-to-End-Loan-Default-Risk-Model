@@ -15,7 +15,7 @@
 8. update the main.py
 9. update the app.py
 
-# Creating the Environment and installing Packages
+# Creating the environment and installing the requirements
 ### STEPS:
 
 
