@@ -1,7 +1,6 @@
-# End-to-end-ML-Project
+# End-to-end-Loan Default Risk Prediction
 
-
-## Workflows
+## Folder WorkFlow
 
 1. update config.yaml
 2. update schema.yaml
@@ -13,7 +12,7 @@
 8. update the main.py
 9. update the app.py
 
-# How to run?
+# Creating the Environments and installing Packages
 ### STEPS:
 
 
