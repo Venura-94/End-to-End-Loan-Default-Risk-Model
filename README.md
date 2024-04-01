@@ -1,4 +1,7 @@
 # End-to-end-Loan Default Risk Prediction (Random Forest Classifier Problem)
+
+Projects Target Audience - Empowering banks with critical insights into factors influencing loan defaults, predictive model aims to refine loan authorization processes and risk assessments.
+
 ### Currently running parameters and model is still in researching phase (Preprocessing block and hyperparamter tuning)
 ![image](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/e280a874-0e16-4090-9c02-aaa8b2629753)
 
