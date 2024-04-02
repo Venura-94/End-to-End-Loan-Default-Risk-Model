@@ -5,7 +5,10 @@ Projects Target Audience - Empowering banks with critical insights into factors 
 ### The model is still in researching phase (Data Preprocessing block and hyperparamter tuning)
 ![image](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/e280a874-0e16-4090-9c02-aaa8b2629753)
 
-### Diagram to Explain the Project's End-to-End Deployment
+### Diagrams to Explain the Project's End-to-End Deployment (two Figures)
+
+![image](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/2f3bbfd9-a518-42d8-b2db-e8bc7ad4fd1d)
+
 
 ![AWS_CICD_EC2](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/b1419411-3f3f-40ad-aa5d-934f5c0665d8)
 
