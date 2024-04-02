@@ -87,6 +87,8 @@ python app.py
 
 ![Port added](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/3979cc0c-6c3c-4e2f-bd6b-86c3a00f0f1a)
 
+### Prediction UI
+
 ![webapp](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/1338b400-9152-4cf9-86b2-dd78242c0e84)
 
 
