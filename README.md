@@ -7,7 +7,7 @@ Projects Target Audience - Empowering banks with critical insights into factors 
 
 ### Diagrams to Explain the Project's End-to-End Deployment (Pipeline Architecture & AWS Delpoyment Architecture)
 
-![image](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/2f3bbfd9-a518-42d8-b2db-e8bc7ad4fd1d)
+![image](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/4346e95f-51cf-4d23-a866-ee59fc6db7c5)
 
 
 ![AWS_CICD_EC2](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/b1419411-3f3f-40ad-aa5d-934f5c0665d8)
