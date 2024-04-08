@@ -3,7 +3,8 @@
 Projects Target Audience - Empowering banks with critical insights into factors influencing loan defaults, predictive model aims to refine loan authorization processes and risk assessments.
 
 ### The model is still in researching phase (Data Preprocessing block and hyperparamter tuning)
-![image](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/e280a874-0e16-4090-9c02-aaa8b2629753)
+
+![image](https://github.com/Venura-94/End-to-End-Loan-Default-Risk-Model/assets/137409412/31b5db88-a5e3-48c0-8f41-477829aa2753)
 
 ### Diagrams to Explain the Project's End-to-End Deployment (Pipeline Architecture & AWS Delpoyment Architecture)
 
