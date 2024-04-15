@@ -13,9 +13,9 @@ class DataTransformation:
 
 
     
-    ## Note: You can add different data transformation techniques such as Scaler, PCA and all, can perform all kinds of EDA in ML cycle here before passing this data to the model
+    ## Note: Data preprocessing block is under construction (research on going to up scale the F1 score )
 
-    # I am only adding train_test_spliting cz this data is already cleaned up
+    #Train/Test Split added for now
 
 
     def train_test_spliting(self):
