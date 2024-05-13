@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 from mlProject import logger
-from sklearn.ensemble import RandomForestClassifier
+import xgboost as xgb
 import joblib
 from sklearn.model_selection import train_test_split
 from mlProject.entity.config_entity import ModelTrainerConfig
@@ -21,7 +21,7 @@ class ModelTrainer:
         test_y = test_data[[self.config.target_column]]
 
 
-        rf1 = RandomForestClassifier(n_estimators=50,max_depth=20)
+        rf1 = xgb.XGBClassifier(n_estimators=100,max_depth=14)
         rf1.fit(train_x, train_y)
 
         joblib.dump(rf1, os.path.join(self.config.root_dir, self.config.model_name))
