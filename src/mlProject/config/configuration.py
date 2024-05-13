@@ -63,7 +63,7 @@ class ConfigurationManager:
     
     def get_model_trainer_config(self) -> ModelTrainerConfig:
         config = self.config.model_trainer
-        params = self.params.RandomForestClassifier
+        params = self.params.XGBClassifier
         schema =  self.schema.TARGET_COLUMN
 
         create_directories([config.root_dir])
@@ -83,7 +83,7 @@ class ConfigurationManager:
     
     def get_model_evaluation_config(self) -> ModelEvaluationConfig:
         config = self.config.model_evaluation
-        params = self.params.RandomForestClassifier
+        params = self.params.XGBClassifier
         schema =  self.schema.TARGET_COLUMN
 
         create_directories([config.root_dir])
